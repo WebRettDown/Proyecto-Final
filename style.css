@@ -115,6 +115,9 @@ header{
 #titleIMG{
     margin-inline-start: 10%;
     float: left;
+    margin-top: -10px;
+    height: 350px;
+    width: 600px;
 }
 
 #logoIMG{
@@ -189,15 +192,19 @@ header{
 
 #mediaIMG{
     margin-top: 10%;
-    margin-inline-start: 10%;
-    height: 40%;
-    width: 35%;
+    margin-left: 10%;
+    height: 30%;
+    width: 30%;
     float: left;
+    border-radius: 10px;
 }
 
 #mediaIMG + .addition{
     margin-top: 10%;
+    margin-right: 10%;
     float: right;
+    border: none;
+    margin-top: 15%;
 }
 
 #media > div{
@@ -207,6 +214,10 @@ header{
 #mediaDown{
     padding-top: 10%;
     margin-top: 30%;
+}
+#mediaDown > p{
+    margin: 2em;
+    font-weight: bold;
 }
 
 #mediaPart{
@@ -240,6 +251,14 @@ header{
     width: 400px;
     height: 300px;
 }
+
+#online{
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
 #background{
     margin: 0;
     height: 800px;
@@ -288,6 +307,76 @@ header{
     background-color: #ffbd59;
     border-color: #ffbd59;
     color: black;
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+#banner + p{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Permanent Marker', cursive;
+    width: 30px;
+    padding: 1em;
+    margin-left: 500px;
+    margin-top: -10px;
+}
+#banner + p > svg{
+    width: 70px;
+    height: 80px;
+    margin-left: 140%;
+} 
+
+#register{
+    margin-top: -15%;
+    width: 40%;
+    margin-left: 10%;
+}
+#register > form{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+#register > form > input{
+    width: 70%;
+    margin-left: 12%;
+    height: 20px;
+    border-radius: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+#register > form > label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    font-size: 20px;
+    margin: 5px;
+}
+#register > form > button{
+    width: 50%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 23%;
+    background-color: #004aad;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    transition: background-color 0.3s ease-in;
+}
+#register > form > button:hover{
+    background-color: #ffbd59;
+    color: black;
+    cursor: pointer;
+}
+#register > form > select{
+    width: 60%;
+    font-size: 18px;
+    margin-left: 18%;
+}
+#register + img{
+    float: right;
+    margin-top: -40%;
+    margin-right: 10%;
 }
 
 footer{

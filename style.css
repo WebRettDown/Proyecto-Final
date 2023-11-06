@@ -257,6 +257,9 @@ header{
     width: auto;
     height: auto;
     border: none;
+    background-color: white;
+    border-radius: 0;
+    margin: 4em;
 }
 
 #background{
@@ -378,6 +381,7 @@ header{
     margin-top: -40%;
     margin-right: 10%;
 }
+
 
 footer{
     padding: 1em;
